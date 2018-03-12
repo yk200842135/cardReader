@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:id="@+id/ll_body"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="170dp"
+        android:id="@+id/rl_main_top"
+        android:background="@mipmap/bg_login_top">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_centerHorizontal="true"
+            android:id="@+id/ibtn_setting"
+            android:padding="@dimen/activity_horizontal_margin"
+            android:src="@mipmap/ic_login_setting"
+            android:background="@null"
+            android:contentDescription="@null"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorGrayBackGround">
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/edit_user"
+            android:hint="@string/tint_user"
+            android:maxLength="20"
+            android:inputType="textVisiblePassword"
+            android:textSize="22sp"
+            android:textColorHint="@color/defaultTintTextColor"
+            android:layout_marginTop="50dp"/>
+
+        <EditText
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/edit_password"
+            android:layout_below="@+id/edit_user"
+            android:maxLength="20"
+            android:hint="@string/tint_password"
+            android:inputType="textPassword"
+            android:textSize="22sp"
+            android:textColorHint="@color/defaultTintTextColor"
+            android:layout_marginTop="20dp"/>
+
+        <Button
+            android:id="@+id/btn_login"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/pay_button_selector"
+            android:layout_alignParentBottom="true"
+            android:text="@string/login"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

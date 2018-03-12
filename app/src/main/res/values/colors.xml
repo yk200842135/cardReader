@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBlue1">#225188</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="colorGreen1">#28ca87</color>
+    <color name="colorGrayBackGround">#f4f4f4</color>
+    <color name="colorGrayStroke">#dadada</color>
+    <color name="defaultTintTextColor">#7f7f7f</color>
+    <color name="defaultGray">#aaaaaa</color>
+    <color name="black0">#000000</color>
+    <color name="black1">#333333</color>
+    <color name="bg_txt_gray">#6F738A</color>
+    <color name="bg_div_gray">#C2C3CA</color>
+    <color name="bg_drawer">#d8d9e1</color>
+    <color name="bg_bule_deep">#0F87F0</color>
+    <color name="bg_bule">#1E93FA</color>
+    <color name="white">#ffffff</color>
+
+    <color name="color_bg_tint">#aaaaaa</color>
+</resources>

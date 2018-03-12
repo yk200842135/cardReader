@@ -1,0 +1,40 @@
+<resources>
+    <string name="domain">/ocs/handset/httpserver/</string>
+    <string name="url_searchDevice">searchDevice</string>
+    <string name="url_login">login</string>
+    <string name="url_getNormMode">getNormMode</string>
+    <string name="url_trade">applyForConsumption</string>
+    <string name="url_checkBalance">checkBalance</string>
+    <string name="url_editPassword">updatePwd</string>
+    <string name="url_logout">logout</string>
+    <string name="url_queryRecord">queryConsumerRecords</string>
+    <string name="url_queryEmplyMsg">queryEmplyMsg</string>
+    <string name="url_getNewVersion">http://test.keyfree.cn/getNewVersion.shtml</string>
+
+    <string name="app_name">Personnel verification</string>
+    <string name="main_title">Personnel verification</string>
+
+    <string name="tint_user">Username</string>
+    <string name="tint_password">Password</string>
+    <string name="tint_server_ip">Server IP</string>
+    <string name="tint_server_port">Port</string>
+    <string name="login">Login</string>
+    <string name="open_loginning_msg">Please wait...</string>
+
+    <string name="default_title">title</string>
+    <string name="connection_info">ConfigInfo</string>
+
+    <string name="btn_confirm">Confirm</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_test">Test</string>
+
+    <string name="name">Name:</string>
+    <string name="department">Dept.:</string>
+    <string name="idnum">ID:</string>
+    <string name="cardtype">Type:</string>
+    <string name="cardnum">Card:</string>
+
+    <string name="wait_put_card">Please put the card on the card reading area</string>
+    <string name="error_network">Network connection is failed</string>
+    <string name="error_card_invalid">Invalid card，There is no such person in the system</string>
+</resources>

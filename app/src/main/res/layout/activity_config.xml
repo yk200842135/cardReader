@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/ll_body"
+    android:background="@color/colorGrayBackGround">
+
+    <include
+        android:id="@+id/common_toolbar"
+        layout="@layout/toolbar_common"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/edit_connect_ip"
+            android:hint="@string/tint_server_ip"
+            android:digits="0123456789."
+            android:maxLength="15"
+            android:inputType="numberDecimal"
+            android:imeOptions="actionNext"
+            android:textSize="22sp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/rounded_edittext"
+            android:id="@+id/edit_connect_port"
+            android:hint="@string/tint_server_port"
+            android:maxLength="5"
+            android:inputType="number"
+            android:imeOptions="actionGo"
+            android:textSize="22sp" />
+        <Button
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:textSize="20sp"
+            android:id="@+id/btn_test"
+            android:focusable="true"
+            android:textColor="@android:color/white"
+            android:background="@drawable/blue_button_selector"
+            android:text="@string/btn_test"/>
+    </LinearLayout>
+
+    <cn.com.reformer.poi.view.JustifyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/jtv_deviceId"
+        android:textSize="20sp"
+        app:text_color="@color/defaultTintTextColor"
+        android:text="Device ID:F2A45678912345678912345678912345"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:orientation="horizontal"
+        android:id="@+id/ll_btns">
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/pay_button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/btn_confirm"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"/>
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@drawable/pay_button_selector"
+            android:layout_margin="10dp"
+            android:text="@string/btn_cancel"
+            android:textColor="@android:color/white"
+            android:textSize="22sp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gp2">
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@mipmap/ic_menu_login_record"
+            android:title="Records" />
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/gp3">
+
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@mipmap/ic_menu_logout"
+            android:title="Exit" />
+    </group>
+</menu>
